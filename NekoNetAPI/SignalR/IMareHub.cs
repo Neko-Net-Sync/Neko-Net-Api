@@ -10,7 +10,7 @@ namespace NekoNet.API.SignalR;
 public interface IMareHub
 {
     const int ApiVersion = 33;
-    const string Path = "/mare";
+    const string Path = "";
 
     Task<bool> CheckClientHealth();
 
